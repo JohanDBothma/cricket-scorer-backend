@@ -2,9 +2,23 @@
 
 For this back-end, I decided to learn my Python and MongoDB, so I have setup Flask and it communicates with a MongoDB database hosted on my local.
 
+## Instructions
 
+Run Mongodb
+```
+mongosh
+```
+Run Python server
+
+```Python
+python3 app.py
+```
 
 ## Change Log
+
+#### 07 September 2023
+---
+After a long break, working on the system again, trying to get data saving with an actualy form and not a set JSON request.
 
 #### 24 August 2023
 ---
