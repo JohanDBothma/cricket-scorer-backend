@@ -8,10 +8,20 @@ Run Mongodb
 ```
 mongosh
 ```
-Run Python server
 
-```Python
-python3 app.py
+Specify the Flask App route from the terminal if need be
+```
+export FLASK_APP=app
+```
+
+Run Flask server
+```
+flask run
+```
+
+Run Flask server with debug on to enable hot reloading
+```
+flask --debug run
 ```
 
 ## Change Log
