@@ -24,6 +24,10 @@ Run Flask server with debug on to enable hot reloading
 flask --debug run
 ```
 
+Seed players with your Python executable by running the seeders as a module. I have Python3, thus I use this
+```
+python3 -m seeders.seed_players
+```
 ## Change Log
 
 #### 07 September 2023
